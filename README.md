@@ -11,7 +11,7 @@ Poniendo en práctica el patrón Abstract Factory
 
 ![image](https://user-images.githubusercontent.com/6163491/222612608-80a324f2-451c-4812-9ea0-c4d67e8f6f30.png)
 
-
+Interfaz abstracta
 ```
 public interface IFabricaDeComida {
 	
@@ -20,14 +20,14 @@ public interface IFabricaDeComida {
 
 }
 ```
-xxxxx
+Interfaz abstracta
 
 ```
 public interface IPlatoPrincipal {
 	
 }
 ```
-xxxxx
+Clase concreta
 ```
 public class FabricaComidaOccidental implements IFabricaDeComida {
 
@@ -44,7 +44,7 @@ public class FabricaComidaOccidental implements IFabricaDeComida {
 	}
 }
 ```
-xxxx
+Clase concreta
 
 ```
 public class PlatoPrincipalOccidental implements IPlatoPrincipal {
@@ -83,7 +83,7 @@ public class PlatoPrincipalOccidental implements IPlatoPrincipal {
 }
 ```
 
-xxx
+Implementación abstracta
 
 ```
 public class PreparacionDeComidaApplication {
